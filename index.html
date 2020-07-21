@@ -11,7 +11,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 89%, 11%); text-decoration: none; }
   </style>
 </head>
 <body>
@@ -64,14 +64,14 @@
       $('.close').hide();
       $('.lists').hide();
       $('.ham').on('click',() => {
-        $('.ham').hide();
-        $('.close').show();
-        $('.lists').show();
+        $('.ham').toggle();
+        $('.close').toggle();
+        $('.lists').toggle();
       });
       $('.close').on('click',() => {
-        $('.close').hide();
-        $('.ham').show();
-        $('.lists').hide();
+        $('.close').toggle();
+        $('.ham').toggle();
+        $('.lists').toggle();
       });
     })
   </script>
