@@ -33,7 +33,7 @@ h1,h4, .btn{
 }
 nav ul{
     list-style-type: none;
-    display: flex !important;
+    display: flex;
     align-items: center;
     text-transform: uppercase;
     font-family: 'Barlow Condensed', sans-serif;
@@ -122,7 +122,7 @@ p{
         display: none;
     }
     nav{
-        display: flex;
+        display: flex !important;
         justify-content: space-between;
         align-items: center;
         padding: 55px 120px;
